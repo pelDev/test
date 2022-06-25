@@ -1,6 +1,7 @@
 import React from 'react';
-import {ScrollView, View, StatusBar} from 'react-native';
+import {View, StatusBar} from 'react-native';
 import styles from './style';
+import {ScrollView} from 'react-native-virtualized-view';
 
 const Container = ({style, children}) => {
   return (
@@ -10,7 +11,7 @@ const Container = ({style, children}) => {
         style,
         {paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0},
       ]}>
-      <ScrollView showsHorizontalScrollIndicator={false}>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View>{children}</View>
       </ScrollView>
     </View>

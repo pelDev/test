@@ -1,5 +1,5 @@
 export default {
-  //   primary: '#043A65',
+  primary: '#FF5757',
   //   secondary: '#E13A3A',
   //   accent: '#4895ef',
   //   danger: '#f72585',
@@ -8,6 +8,7 @@ export default {
   white: '#ffffff',
   orange: '#FF5757',
   blue: '#043F7C',
+  textInputBackground: '#F3F3F7',
   //   tabBarNotSelected: '#333333',
   //   tabBarSelected: '#115084',
   //   lightBackground: '#E5E5E5',

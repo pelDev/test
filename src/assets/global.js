@@ -13,4 +13,15 @@ export default StyleSheet.create({
     fontWeight: '500',
     fontSize: 14,
   },
+
+  blackText: {
+    color: colors.black,
+    fontWeight: '500',
+    fontSize: 14,
+  },
+
+  iconImage: {
+    height: 14,
+    width: 14,
+  },
 });
