@@ -6,6 +6,8 @@ export default {
   //   success: '#4cc9f0',
   //   grey: '#F9F9F9',
   white: '#ffffff',
+  orange: '#FF5757',
+  blue: '#043F7C',
   //   tabBarNotSelected: '#333333',
   //   tabBarSelected: '#115084',
   //   lightBackground: '#E5E5E5',

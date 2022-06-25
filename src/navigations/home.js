@@ -31,7 +31,7 @@ const HomeNavigator = () => {
       })}
       initialRouteName={ASK_A_DOCTOR_SCREEN}>
       <Tab.Screen
-        options={{tabBarLabel: 'Ask a Doctor'}}
+        options={{tabBarLabel: 'Ask a Doctor', title: 'Home'}}
         name={ASK_A_DOCTOR_SCREEN}
         component={AskADoctorScreen}
       />
