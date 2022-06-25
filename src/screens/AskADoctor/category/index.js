@@ -17,7 +17,9 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.8,
     shadowRadius: 1,
     elevation: 5,
-    marginRight: 16,
+    // marginLeft: 8,
+    // marginRight: 8,
+    margin: 8,
   },
 });
 

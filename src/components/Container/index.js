@@ -5,16 +5,16 @@ import {ScrollView} from 'react-native-virtualized-view';
 
 const Container = ({style, children}) => {
   return (
-    <View
-      style={[
-        styles.wrapper,
-        style,
-        {paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0},
-      ]}>
-      <ScrollView showsVerticalScrollIndicator={false}>
-        <View>{children}</View>
-      </ScrollView>
-    </View>
+    <ScrollView showsVerticalScrollIndicator={false}>
+      <View
+        style={[
+          styles.wrapper,
+          style,
+          {paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0},
+        ]}>
+        {children}
+      </View>
+    </ScrollView>
   );
 };
 

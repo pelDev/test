@@ -5,7 +5,6 @@ import colors from '../../assets/theme/colors';
 const styles = StyleSheet.create({
   // ...
   appButtonContainer: {
-    elevation: 8,
     borderRadius: 10,
     paddingVertical: 10,
     paddingHorizontal: 12,

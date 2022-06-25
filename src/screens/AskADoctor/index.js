@@ -93,7 +93,7 @@ function AskADoctorScreen({navigation}) {
         }
       />
 
-      <View style={{height: 8}} />
+      <View style={{height: 16}} />
 
       <CustomButton label={'Search'} />
 
