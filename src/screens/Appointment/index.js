@@ -4,7 +4,7 @@ import Container from '../../components/Container';
 
 function AppointmentScreen() {
   return (
-    <Container>
+    <Container style={{backgroundColor: 'transparent'}}>
       <Text>Appointment</Text>
     </Container>
   );

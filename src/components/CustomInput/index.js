@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {TextInput, View} from 'react-native';
+import colors from '../../assets/theme/colors';
 import style from './style';
 
 function CustomInput({icon, placeholder}) {
@@ -12,6 +13,7 @@ function CustomInput({icon, placeholder}) {
       <TextInput
         style={style.input}
         placeholder={placeholder}
+        placeholderTextColor={colors.placeholderColor}
         onChangeText={setText}
         value={text}
         underlineColorAndroid="transparent"

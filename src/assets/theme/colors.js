@@ -1,16 +1,11 @@
+import {applyAlpha} from '../../utils/applyAlpha';
+
 export default {
   primary: '#FF5757',
-  //   secondary: '#E13A3A',
-  //   accent: '#4895ef',
-  //   danger: '#f72585',
-  //   success: '#4cc9f0',
-  //   grey: '#F9F9F9',
   white: '#ffffff',
   orange: '#FF5757',
   blue: '#043F7C',
   textInputBackground: '#F3F3F7',
-  //   tabBarNotSelected: '#333333',
-  //   tabBarSelected: '#115084',
-  //   lightBackground: '#E5E5E5',
+  placeholderColor: applyAlpha('#000000', 0.38),
   black: '#000000',
 };
